@@ -11,17 +11,17 @@
 * Open cmd to the file location.
 * Run Command:
 ```console
-newman run Quick-Solution2.postman_collection.json -e Quick-Solution-Single-user.postman_environment.json
+newman run Project1.postman_collection.json -e Project1.postman_environment.json
 ```
 * Run Command for Report:
 
 For html:
 ```console
-newman run Quick-Solution2.postman_collection.json -e Quick-Solution-Single-user.postman_environment.json -r cli,html
+newman run Project1.postman_collection.json -e Project1.postman_environment.json -r cli,html
 ```
 For htmlextra:
 ```console
-newman run Quick-Solution2.postman_collection.json -e Quick-Solution-Single-user.postman_environment.json -r cli,htmlextra
+newman run Project1.postman_collection.json -e Project1.postman_environment.json -r cli,htmlextra
 ```
 ### :technologist: Technology used
 <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg"  width="15" height="15"> Postman & Newman
@@ -42,9 +42,9 @@ npm install -g newman-reporter-htmlextra
 npm install -g newman-reporter-htmlextra
 ```
 ### API Documentations
-[PDF](https://drive.google.com/file/d/1cI9_7JVvtUjUSqY8ZTs3O4SYrdurudZS/view?usp=sharing)
+[PDF](https://drive.google.com/file/d/1cTcDTPmWr46HHxMjB1WNLAG8ou9PUvCa/view?usp=sharing)
 #### Postman Documentations
-[Postman](https://documenter.getpostman.com/view/24594715/2s93m4ZPT7)
+[Postman](https://documenter.getpostman.com/view/24594715/2s93m622tB)
 ## Test case list:
 ### Find Job By User
 #### PUT
