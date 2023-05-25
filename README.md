@@ -107,7 +107,8 @@ https://thetestingworldapi.com/api/FinalStudentDetails/{{Id}}
 
 
 # Newman Report
-![image](https://github.com/Sayid1218/Quick-Solution-API-Test-Report/assets/97175166/3b6cce36-6035-48f2-9f64-1dde7741dc13)
-![image](https://github.com/Sayid1218/Quick-Solution-API-Test-Report/assets/97175166/c9d5fad0-ee9a-4ecc-8e67-4d1fa32a0c46)
-![image](https://github.com/Sayid1218/Quick-Solution-API-Test-Report/assets/97175166/7890e125-7d8c-4c76-bc45-91221633f2de)
+![image](https://github.com/Sayid1218/Project1-Api/assets/97175166/c1d0a9ae-9f22-45cb-ac78-9f76e0515078)
+![image](https://github.com/Sayid1218/Project1-Api/assets/97175166/508da6b9-4631-4753-bdd0-d2b3e8e30677)
+![image](https://github.com/Sayid1218/Project1-Api/assets/97175166/dbf37ccb-f41b-4d82-8814-ef0c11d7cffd)
+![image](https://github.com/Sayid1218/Project1-Api/assets/97175166/62263922-0acc-476f-9dda-e919f2d6fbff)
 
