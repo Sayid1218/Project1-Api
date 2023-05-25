@@ -46,41 +46,20 @@ npm install -g newman-reporter-htmlextra
 #### Postman Documentations
 [Postman](https://documenter.getpostman.com/view/24594715/2s93m622tB)
 ## Test case list:
-### Find Job By User
-#### PUT
-- Put user to Database and Collect accessToken.
-- Put a applied job.
+
+### POST
+#### Create Student
+Body
+{ "first_name": "", "middle_name": "", "last_name": "", "date_of_birth": "{{DOB}}"
+}
+- Create Student Address
 #### GET
 - Find Job by Keyword.
 - Get job Details.
 - Get applied jobs.
 #### DELETE
 - Delete applied job.
-### Post job by user
-#### PUT
-- Put user to database and collect accessToken.
-#### POST
-- Post a job.
-#### GET
-- Get posted job.
-#### DELETE
-- Delete posted job.
-### Admin User
-### GET
-- Get all Jobs from database.
-- Get an user information by email.
-- Get all users from database.
-- Get Category from database.
-- Get Reviews.
-- Get a email Admin or not.
-### PUT
-- Put category in database.
-- Put a user to admin.
-### POST
-- Post a review.
-### DELETE
-- Delete user from database.
-- Delete Review from database.
+
 
 # Newman Report
 ![image](https://github.com/Sayid1218/Quick-Solution-API-Test-Report/assets/97175166/3b6cce36-6035-48f2-9f64-1dde7741dc13)
