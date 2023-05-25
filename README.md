@@ -48,17 +48,62 @@ npm install -g newman-reporter-htmlextra
 ## Test case list:
 
 ### POST
-#### Create Student
-Body
+#### -Create Student
+https://thetestingworldapi.com/api/studentsDetails
+
+Body :
 { "first_name": "", "middle_name": "", "last_name": "", "date_of_birth": "{{DOB}}"
 }
-- Create Student Address
+#### - Create Student Address
+https://thetestingworldapi.com/api/addresses
+
+Body :
+{
+    "Permanent_Address": {
+        "House_Number": "",
+        "City": "",
+        "State": "",
+        "Country": "",
+        "PhoneNumber": [
+            {
+                "Std_Code": "",
+                "Home": "Yes",
+                "Mobile": ""
+            },
+            {
+                "Std_Code": "",
+                "Home": "No",
+                "Mobile": ""
+            }
+        ]
+    },
+
+    "stId": 
+}
+#### -Create Technical Skill
+https://thetestingworldapi.com/api/technicalskills
+
+Body :
+{
+"id": 1,
+"language": [
+"",
+""
+],
+"yearexp": "",
+"lastused": "",
+"st_id": 
+}
 #### GET
-- Find Job by Keyword.
-- Get job Details.
-- Get applied jobs.
-#### DELETE
-- Delete applied job.
+#### - Get Student
+https://thetestingworldapi.com/api/studentsDetails
+
+#### - Get Specific Student
+https://thetestingworldapi.com/api/studentsDetails/{{Id}}
+
+#### Get Final Student Details
+https://thetestingworldapi.com/api/FinalStudentDetails/{{Id}}
+
 
 
 # Newman Report
