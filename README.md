@@ -42,7 +42,7 @@ npm install -g newman-reporter-htmlextra
 npm install -g newman-reporter-htmlextra
 ```
 ### API Documentations
-[PDF](https://drive.google.com/file/d/1cTcDTPmWr46HHxMjB1WNLAG8ou9PUvCa/view?usp=sharing)
+[PDF](https://drive.google.com/file/d/10dzwV_crWbvO-GgkxEqdMgWM6iDSjx1Q/view?usp=sharing)
 #### Postman Documentations
 [Postman](https://documenter.getpostman.com/view/24594715/2s93m622tB)
 ## Test case list:
