@@ -53,7 +53,10 @@ https://thetestingworldapi.com/api/studentsDetails
 
 Body :
 ```json
-{ "first_name": "", "middle_name": "", "last_name": "", "date_of_birth": "{{DOB}}"
+{ "first_name": "",
+"middle_name": "", 
+"last_name": "", 
+"date_of_birth": "{{DOB}}"
 }
 ```
 #### - Create Student Address
