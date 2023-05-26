@@ -52,12 +52,15 @@ npm install -g newman-reporter-htmlextra
 https://thetestingworldapi.com/api/studentsDetails
 
 Body :
+```json
 { "first_name": "", "middle_name": "", "last_name": "", "date_of_birth": "{{DOB}}"
 }
+```
 #### - Create Student Address
 https://thetestingworldapi.com/api/addresses
 
 Body :
+```json
 {
     "Permanent_Address": {
         "House_Number": "",
@@ -80,10 +83,12 @@ Body :
 
     "stId": 
 }
+```
 #### -Create Technical Skill
 https://thetestingworldapi.com/api/technicalskills
 
 Body :
+```json
 {
 "id": 1,
 "language": [
@@ -94,6 +99,7 @@ Body :
 "lastused": "",
 "st_id": 
 }
+```
 #### GET
 #### - Get Student
 https://thetestingworldapi.com/api/studentsDetails
